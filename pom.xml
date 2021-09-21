@@ -19,5 +19,18 @@
 		</dependency>
 
 	</dependencies>
-	
+<distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>Releases</name>
+      <url>http://35.154.62.1:8081/repository/RELEASE-MAVEN/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Snapshot</name>
+      <url></url>
+    <http://35.154.62.1:8081/repository/SNAPSHOT-MAVEN/snapshotRepository>
+  </distributionManagement>
+
+
 </project>
