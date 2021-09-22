@@ -28,8 +28,7 @@
     <snapshotRepository>
       <id>nexus</id>
       <name>SNAPSHOT-MAVEN</name>
-      <url>http://13.235.135.246:8081/repository/SNAPSHOT-MAVEN/</url>
-  </distributionManagement>
-
-
-</project>
+	    <url>http://13.235.135.246:8081/repository/SNAPSHOT-MAVEN/</url>
+	  </snapshotRepository>	    
+         </distributionManagement>
+        </project>
